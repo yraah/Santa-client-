@@ -1,0 +1,1408 @@
+.stars-testimonials blockquote {
+  background: none;  
+}
+.st-rating {
+  color: red;
+}
+.style1 .starrating {
+  position: absolute;
+  right: 7px;
+  top: 2px;
+}
+.style10 .starrating {
+  position: absolute;
+  right: 15px;
+  top: 8px;
+}
+.st-style17 .starrating {
+  position: absolute;
+  top: 73px;
+  right: 24px;
+}
+.style2 .starrating, .st-style5 .starrating, .st-style14 .starrating {
+  text-align: center;
+}
+.style3 .starrating {
+  text-align: left;
+}
+.style7 .starrating {
+  text-align: right;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  padding-top: -10px;
+}
+.style4 .starrating {
+  text-align: center;
+}
+figure blockquote {
+  border: none;
+}
+figure.style1 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+figure.style1 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+}
+figure.style1 img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+figure.style1 blockquote {
+  position: relative;
+  background-color: #ffffff;
+  padding: 25px 50px 25px 50px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  margin: 0;
+  line-height: 1.6em;
+  font-style: italic;
+}
+figure.style1 blockquote:before,
+figure.style1 blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+}
+figure.style1 blockquote:before {
+  top: 25px;
+  left: 20px;
+}
+figure.style1 blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 0;
+}
+figure.style1 .arrow {
+  top: 100%;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #ffffff;
+  margin: 0;
+  position: absolute;
+}
+figure.style1 .author {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 8px;
+  color: #000000;
+  background-color: #ffffff;
+  margin: 0;
+  text-transform: uppercase;
+}
+figure.style1 .author h5 {
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 800;
+}
+figure.style1 .author h5 span {
+  font-weight: 400;
+  text-transform: none;
+  padding-left: 5px;
+}
+figure.style2 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  box-shadow: none !important;
+}
+figure.style2 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.style2 img {
+  max-width: 100%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  z-index: 1;
+  position: relative;
+}
+figure.style2 blockquote {
+  margin: 0;
+  display: block;
+  border-radius: 8px;
+  position: relative;
+  background-color: #fafafa;
+  padding: 65px 50px 30px 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: -50px 0 0;
+  line-height: 1.6em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+figure.style2 blockquote:before,
+figure.style2 blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+}
+figure.style2 blockquote:before {
+  top: 70px;
+  left: 20px;
+}
+figure.style2 blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 0;
+}
+figure.style2 .author {
+  padding: 15px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+figure.style2 .author h5 {
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 800;
+}
+figure.style2 .author h5 span {
+  font-weight: 400;
+  text-transform: none;
+  display: block;
+}
+figure.style3 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  box-shadow: none !important;
+}
+figure.style3 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+}
+figure.style3 img {
+  max-width: 100%;
+  vertical-align: middle;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin: 40px 0 0 10px;
+}
+figure.style3 blockquote {
+  display: block;
+  border-radius: 8px;
+  position: relative;
+  background-color: #fafafa;
+  padding: 25px 50px 30px 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.6em;
+  font-style: italic;
+}
+figure.style3 blockquote:before,
+figure.style3 blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+}
+figure.style3 blockquote:before {
+  top: 25px;
+  left: 20px;
+}
+figure.style3 blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 0;
+}
+figure.style3 .arrow {
+  top: 100%;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #fafafa;
+  margin: 0;
+  position: absolute;
+}
+figure.style3 .author {
+  position: absolute;
+  bottom: 45px;
+  padding: 0 10px 0 120px;
+  margin: 0;
+  text-transform: uppercase;
+  color: #ffffff;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+}
+figure.style3 .author h5 {
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 800;
+}
+figure.style3 .author h5 span {
+  font-weight: 400;
+  text-transform: none;
+  padding-left: 5px;
+}
+figure.style4 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  background-color: #fafafa;
+}
+figure.style4 blockquote {
+  font-family: 'Lora', Arial, sans-serif;
+  margin: 0;
+  padding: 40px 40px 0 90px;
+  font-weight: 500;
+  line-height: 1.6em;
+  font-style: italic;
+  font-size: 14px;
+}
+figure.style4 .author {
+  margin: 20px 0 30px 90px;
+  padding: 3px 0 0 50px;
+  width: 100%;
+  position: relative;
+}
+figure.style4 .author img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  position: absolute;
+}
+figure.style4 .author h5,
+figure.style4 .author span {
+  opacity: 0.8;
+  margin: 0;
+  line-height: 1em;
+}
+figure.style4 .author h5 {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+figure.style4 .author span {
+  font-size: 0.8em;
+}
+figure.style4:before {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 150px;
+  line-height: 1em;
+  color: #212121;
+  font-style: normal;
+  top: -30px;
+  left: 10px;
+}
+.st-style5 {
+  font-family: 'Muli', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  padding: 6px;
+  width: 100%;
+  box-shadow: none !important;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 16px;
+}
+.st-style5 * {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.st-style5 img {
+  max-width: 100%;
+  vertical-align: top;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.st-style5 .border {
+  position: absolute;
+  opacity: 0.45;
+  z-index: 1;
+}
+.st-style5 .border:before,
+.st-style5 .border:after,
+.st-style5 .border div:before,
+.st-style5 .border div:after {
+  background-color: #f5b043;
+  position: absolute;
+  content: "";
+  display: block;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.st-style5 .border:before,
+.st-style5 .border:after {
+  width: 0;
+  height: 1px;
+}
+.st-style5 .border div:before,
+.st-style5 .border div:after {
+  width: 1px;
+  height: 0;
+}
+.st-style5 .border.one {
+  left: 0;
+  top: 0;
+  right: 12px;
+  bottom: 12px;
+}
+.st-style5 .border.one:before,
+.st-style5 .border.one div:before {
+  left: 0;
+  top: 0;
+}
+.st-style5 .border.one:after,
+.st-style5 .border.one div:after {
+  bottom: 0;
+  right: 0;
+}
+.st-style5 .border.two {
+  left: 12px;
+  top: 12px;
+  right: 0;
+  bottom: 0;
+}
+.st-style5 .border.two:before,
+.st-style5 .border.two div:before {
+  right: 0;
+  top: 0;
+}
+.st-style5 .border.two:after,
+.st-style5 .border.two div:after {
+  bottom: 0;
+  left: 0;
+}
+.st-style5 figcaption {
+  left: 6px;
+  right: 6px;
+  top: 6px;
+  bottom: 6px;
+  position: absolute;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.st-style5 blockquote {
+  font-family: 'Ovo', Arial, sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
+  line-height: 1.6em;
+  font-style: italic;
+  letter-spacing: 1px;
+  padding: 0;
+  margin: 0;
+}
+.st-style5 h5 {
+  display: inline-block;
+  font-size: 1em;
+  color: #FFF;
+}
+.st-style5 h5 span {
+  font-weight: normal;
+  margin-left: 5px;
+  opacity: 0.5;
+}
+.st-style5 h5:before {
+  content: '- ';
+}
+.st-style5 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+.st-style5:hover .border:before,
+.st-style5.hover .border:before,
+.st-style5:hover .border:after,
+.st-style5.hover .border:after {
+  width: 100%;
+}
+.st-style5:hover .border div:before,
+.st-style5.hover .border div:before,
+.st-style5:hover .border div:after,
+.st-style5.hover .border div:after {
+  height: 100%;
+}
+.st-style5:hover figcaption,
+.st-style5.hover figcaption {
+  opacity: 0.9;
+  background-color: #000000;
+}
+
+figure.style6 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  width: 100%;
+  color: #333;
+  text-align: center;
+  background-color: #fafafa;
+}
+figure.style6 blockquote {
+  font-family: 'Lora', Arial, sans-serif;
+  margin: 0;
+  padding: 50px 40px 0;
+  font-weight: 500;
+  line-height: 1.6em;
+  font-style: italic;
+}
+figure.style6 .author {
+  margin: 20px 0 40px;
+  width: 100%;
+}
+figure.style6 .author img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+figure.style6 .author h5,
+figure.style6 .author span {
+  opacity: 0.8;
+  margin: 0;
+}
+figure.style6 .author h5 {
+  text-transform: uppercase;
+  font-weight: 800;
+}
+figure.style6 .author span {
+  font-size: 0.8em;
+}
+figure.style6:before,
+figure.style6:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 150px;
+  line-height: 1em;
+  color: #212121;
+  font-style: normal;
+}
+figure.style6:before {
+  top: -30px;
+  left: 20px;
+}
+figure.style6:after {
+  content: "\201D";
+  right: 20px;
+  bottom: -88px;
+}
+
+figure.style7 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  border-bottom: 10px solid #ffffff;
+}
+figure.style7 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+}
+figure.style7 img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+figure.style7 blockquote {
+  position: relative;
+  background-color: #ffffff;
+  padding: 40px 25px 25px 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  text-align: right;
+  margin: 0;
+  line-height: 1.6em;
+  font-style: italic;
+}
+figure.style7 blockquote:after {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  z-index: 1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 100%);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.35) 100%);
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  background-color: #20638f;
+  -webkit-transform: skew(-45deg) translateX(-50%);
+  transform: skew(-45deg) translateX(-50%);
+  border-right: 1px solid #20638f;
+}
+figure.style7:before {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  content: '';
+  -webkit-transform: skew(-45deg);
+  transform: skew(-45deg);
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  z-index: 1;
+  background-color: #ffffff;
+  -webkit-transform: skew(-45deg) translateX(50%);
+  transform: skew(-45deg) translateX(50%);
+  border-right: 1px solid #ffffff;
+}
+figure.style7 i.fa-quote-left {
+  position: absolute;
+  color: #ffffff;
+  font-size: 32px;
+  z-index: 2;
+  padding: 8px 12px;
+}
+figure.style7 .author {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 20px;
+  color: #ffffff;
+  margin: 0;
+  text-transform: uppercase;
+}
+figure.style7 .author h5 {
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 800;
+}
+figure.style7 .author h5 span {
+  font-weight: 400;
+  text-transform: none;
+  display: block;
+}
+figure.style8 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  box-shadow: none !important;
+}
+figure.style8 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.style8 img {
+  max-width: 100%;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 5px;
+  display: block;
+  z-index: 1;
+  position: absolute;
+  right: 50%;
+}
+figure.style8 blockquote {
+  margin: 0;
+  display: block;
+  border-radius: 8px;
+  position: relative;
+  background-color: #fafafa;
+  padding: 65px 50px 35px 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: -40px 0 0;
+  line-height: 1.6em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+figure.style8 blockquote:before,
+figure.style8 blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+}
+figure.style8 blockquote:before {
+  top: 55px;
+  left: 20px;
+}
+figure.style8 blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 5px;
+}
+figure.style8 .author {
+  margin: 0;
+  height: 80px;
+  display: block;
+  text-align: left;
+  padding: 0 35px;
+  position: relative;
+  z-index: 1;
+}
+figure.style8 .author h5,
+figure.style8 .author span {
+  left: 50%;
+  position: absolute;
+  opacity: 0.8;
+  padding: 3px 5px;
+}
+figure.style8 .author h5 {
+  text-transform: uppercase;
+  bottom: 50%;
+  margin: 0;
+  font-weight: 800;
+  color: #ffffff;
+}
+figure.style8 .author span {
+  font-size: 0.8em;
+  color: #000000;
+  top: 50%;
+  font-weight: 500;
+}
+
+figure.style9 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  box-shadow: none !important;
+}
+figure.style9 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.style9 img {
+  max-width: 100%;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 5px;
+  display: block;
+  z-index: 1;
+  position: absolute;
+  right: 50%;
+}
+figure.style9 blockquote {
+  margin: 0;
+  display: block;
+  border-radius: 8px;
+  position: relative;
+  background-color: #fafafa;
+  padding: 30px 50px 65px 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0 0 -40px;
+  line-height: 1.6em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+figure.style9 blockquote:before,
+figure.style9 blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+}
+figure.style9 blockquote:before {
+  top: 35px;
+  left: 20px;
+}
+figure.style9 blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 35px;
+}
+figure.style9 .author {
+  margin: 0;
+  height: 80px;
+  display: block;
+  text-align: left;
+  color: #ffffff;
+  padding: 0 35px;
+  position: relative;
+}
+figure.style9 .author h5,
+figure.style9 .author span {
+  left: 50%;
+  position: absolute;
+  opacity: 0.8;
+  padding: 3px 5px;
+}
+figure.style9 .author h5 {
+  text-transform: uppercase;
+  bottom: 50%;
+  margin: 0;
+  font-weight: 800;
+  color: #000000;
+}
+figure.style9 .author span {
+  font-size: 0.8em;
+  color: #ffffff;
+  top: 50%;
+}
+figure.style10 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  margin: 10px 1% 40px;
+  width: 100%;
+  color: #333;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+figure.style10 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.style10 img {
+  float: right;
+  max-width: 40%;
+  vertical-align: middle;
+  border-radius: 0 8px 8px 0;
+}
+figure.style10 figcaption {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 60%;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 8px 0 0 8px;
+}
+figure.style10 blockquote {
+  position: relative;
+  padding: 25px 50px 25px 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  text-align: left;
+  margin: 0;
+  line-height: 1.6em;
+  font-style: italic;
+}
+figure.style10 blockquote:before,
+figure.style10 blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+}
+figure.style10 blockquote:before {
+  top: 25px;
+  left: 20px;
+}
+figure.style10 blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 0px;
+}
+figure.style10 .arrow {
+  top: 30px;
+  left: 100%;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #ffffff;
+  margin: 0;
+  position: absolute;
+}
+figure.style10 .author {
+  position: absolute;
+  top: 100%;
+  width: 60%;
+  padding: 10px 15px;
+  color: #ffffff;
+  margin: 0;
+  text-transform: uppercase;
+}
+figure.style10 .author h5 {
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 800;
+}
+figure.style10 .author h5 span {
+  font-weight: 400;
+  text-transform: none;
+  padding-left: 5px;
+}
+figure.style11 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  box-shadow: none !important;
+}
+figure.style11 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.style11 img {
+  max-width: 100%;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  display: inline-block;
+  z-index: 1;
+  position: relative;
+}
+figure.style11 blockquote {
+  margin: 0;
+  display: block;
+  border-radius: 8px;
+  position: relative;
+  background-color: #fafafa;
+  padding: 30px 50px 65px 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0 0 -50px;
+  line-height: 1.6em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+figure.style11 blockquote:before,
+figure.style11 blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+}
+figure.style11 blockquote:before {
+  top: 35px;
+  left: 20px;
+}
+figure.style11 blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 35px;
+}
+figure.style11 .author {
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+}
+figure.style11 .author h5 {
+  opacity: 0.8;
+  margin: 0;
+  font-weight: 800;
+}
+figure.style11 .author h5 span {
+  font-weight: 400;
+  text-transform: none;
+  display: block;
+}
+
+.st-style12 {
+  font-family: 'Lato', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 8px;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.st-style12 * {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.st-style12 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.st-style12 figcaption {
+  position: absolute;
+  height: 75px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  overflow: hidden;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.st-style12 h3 {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 3px 0;
+  color: #FFF;
+}
+.st-style12 h5 {
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  color: #bbb;
+  letter-spacing: 1px;
+}
+.st-style12 blockquote {
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+  font-size: 1em;
+}
+.st-style12 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.st-style12:hover figcaption,
+.st-style12.hover figcaption {
+  height: calc(85%);
+}
+
+.st-style13 {
+  font-family: 'Lato', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 8px;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.st-style13 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.st-style13 img {
+  max-width: 100%;
+  vertical-align: top;
+  opacity: 0.7;
+}
+
+.st-style13 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 80px 10% 15%;
+}
+
+.st-style13 figcaption:before {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 170px;
+  opacity: 0.35;
+  font-style: normal;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  top: -25%;
+  left: 50%;
+}
+
+.st-style13 blockquote {
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+.st-style13 h3 {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 3px 0;
+  color: #FFF;
+}
+
+.st-style13 h5 {
+  font-weight: 400;
+  margin: 0;
+  text-transform: uppercase;
+  color: #bbb;
+  letter-spacing: 1px;
+}
+.st-style14 {
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #9e9e9e;
+  display: inline-block;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  margin: 35px 7px 10px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-top: 5px solid #d2652d;
+}
+
+.st-style14 *,
+.st-style14 *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+
+.st-style14 figcaption {
+  padding: 13% 10% 12%;
+}
+
+.st-style14 figcaption:before {
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  color: #d2652d;
+  content: "\f10e";
+  font-family: 'FontAwesome';
+  font-size: 32px;
+  font-style: normal;
+  left: 50%;
+  line-height: 60px;
+  position: absolute;
+  top: -30px;
+  width: 60px;
+}
+
+.st-style14 h3 {
+  color: #3c3c3c;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 10px 0 5px;
+}
+
+.st-style14 h4 {
+  font-weight: 400;
+  margin: 0;
+  opacity: 0.5;
+}
+
+.st-style14 blockquote {
+  font-style: italic;
+  font-weight: 300;
+  margin: 0 0 20px;
+  padding-left: 0;
+  font-size: 16px;
+}
+
+.st-style15 {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  width: 100%;
+  color: #141414;
+  text-align: left;
+  line-height: 1.4em;
+  background-color: #e6e6e6;
+  padding-top: 88px;
+}
+.st-style15 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.st-style15 img {
+  max-width: 100%;
+  vertical-align: top;
+  opacity: 0.85;
+}
+.st-style15 figcaption {
+  width: 100%;
+  background-color: #141414;
+  padding: 25px;
+  position: relative;
+  color: #ffffff;
+}
+.st-style15 .profile {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  max-height: 88px;
+  max-width: 88px;
+  opacity: 1;
+}
+.st-style15 h3 {
+  font-size: 1.3em;
+  margin: 25px;
+  font-weight: 300;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+}
+.st-style15 h3 span {
+  display: block;
+  font-size: 0.65em;
+  font-weight: 600;
+  color: #bdc3c7;
+}
+.st-style15 blockquote {
+  margin: 0 0 10px;
+  padding: 0 0 30px;
+  letter-spacing: 1px;
+  opacity: 0.8;
+  font-style: italic;
+  font-weight: 300;
+}
+.st-style15 blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 180px;
+  line-height: 1em;
+  color: #212121;
+  font-style: normal;
+  content: "\201D";
+  right: 20px;
+  bottom: -105px;
+}
+
+figure.style16 {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  background-color: #2C3447;
+  padding: 30px;
+  background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.style16 *,
+figure.style16 *:before,
+figure.style16 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.style16 figcaption {
+  width: 100%;
+}
+figure.style16 h2,
+figure.style16 h4,
+figure.style16 blockquote {
+  margin: 0;
+}
+figure.style16 h2,
+figure.style16 h4 {
+  font-weight: 300;
+}
+figure.style16 h2 {
+  color: #ffffff;
+}
+figure.style16 h4 {
+  color: #a6a6a6;
+}
+figure.style16 blockquote {
+  font-size: 1em;
+  padding: 45px 20px 40px 50px;
+  margin-top: 30px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: inset -1.4px -1.4px 2px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  position: relative;
+}
+figure.style16 blockquote:before {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 70px;
+  opacity: 0.25;
+  font-style: normal;
+  top: 0px;
+  left: 20px;
+}
+figure.style16 .profile {
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 10px;
+  border: solid 5px #A6A57A;
+}
+
+.st-style17 {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.4em;
+  background-color: #1e1e1e;
+  padding-top: 120px;
+}
+.st-style17 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.st-style17 img {
+  max-width: 100%;
+  vertical-align: top;
+  opacity: 0.85;
+}
+.st-style17 figcaption {
+  width: 100%;
+  background-color: #141414;
+  padding: 25px;
+  position: relative;
+}
+.st-style17 figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55px 0 0 400px;
+  border-color: transparent transparent transparent #141414;
+}
+.st-style17 .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  max-width: 90px;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.st-style17 h3 {
+  font-size: 1.3em;
+  margin: 25px;
+  font-weight: 300;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+  color: #FFF;
+}
+.st-style17 h3 span {
+  display: block;
+  font-size: 0.65em;
+  color: #2980b9;
+}
+.st-style17 blockquote {
+  margin: 0 0 10px;
+  padding: 0 0 30px;
+  letter-spacing: 1px;
+  opacity: 0.8;
+  font-style: italic;
+  font-weight: 300;
+}
+.st-style17 blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 180px;
+  line-height: 1em;
+  color: #212121;
+  font-style: normal;
+  content: "\201D";
+  right: 20px;
+  bottom: -105px;
+}
+.st-style17 h3 span {line-height: 7px; }
+.st-style17 .profile {max-height: 90px;}
+figure.style16 blockquote:before {top: 14px;}
+figure.style16 .profile { height: 100px;}
